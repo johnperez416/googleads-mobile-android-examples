@@ -1,4 +1,4 @@
-FROM openjdk:8-jdk-stretch
+FROM openjdk:18.0.2-slim
 
 RUN apt-get update --fix-missing
 RUN apt-get install -y vim
